@@ -1,3 +1,13 @@
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
    if(jTextField1.getText().equalsIgnoreCase("Rock")&&jTextField2.getText().equalsIgnoreCase("Rock"))
         {
             jLabel4.setText("Draw");
@@ -45,13 +55,11 @@
       
     }                                        
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+   
       jTextField1.setText("Rock");
     }                                        
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+   
         jTextField2.setText("Rock");
         
         
@@ -62,27 +70,22 @@
                  
     }                                        
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    
        jTextField1.setText("Scissor");
     }                                        
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+   
        jTextField2.setText("Paper");
     }                                        
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:
+   
 jTextField1.setText("Paper");
     }                                           
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+  
         jTextField1.setText("Paper");
     }                                        
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+   
         jTextField2.setText("Scissor");
     }                                        
